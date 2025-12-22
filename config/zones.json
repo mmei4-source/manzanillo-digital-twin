@@ -1,0 +1,32 @@
+{
+    "ZONE_A_CURRENT_PORT": {
+        "description": "The operating port, downtown, and main logistics corridor.",
+        "bbox": {
+            "min_lat": 19.03,
+            "max_lat": 19.1,
+            "min_lon": -104.35,
+            "max_lon": -104.28
+        },
+        "priority": "Asset Protection",
+        "technologies": [
+            "Grid_Sensors",
+            "CCTV_Smoke_Detection",
+            "Smart_Panels"
+        ]
+    },
+    "ZONE_B_EXPANSION": {
+        "description": "Laguna de Cuyutl\u00e1n and the Northern Expansion area.",
+        "bbox": {
+            "min_lat": 19.1,
+            "max_lat": 19.18,
+            "min_lon": -104.3,
+            "max_lon": -104.15
+        },
+        "priority": "Ecological Stability & Construction Safety",
+        "technologies": [
+            "IoT_Gas_Mesh",
+            "Vegetation_Analysis",
+            "Drone_Patrols"
+        ]
+    }
+}

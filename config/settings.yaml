@@ -1,0 +1,27 @@
+# MANZANILLO PROTOCOL - SYSTEM CONFIGURATION
+
+paths:
+  raw_data: "../data/raw"
+  processed_data: "../data/processed"
+  models: "../models"
+  logs: "../logs"
+  inegi_dem: "../data/raw/inegi_cem/Colima_r15m.tif"
+  # The script will auto-detect the latest Sentinel zip in this folder
+  sentinel_dir: "../data/raw/sentinel/"
+
+files:
+  training_data: "manzanillo_training_data.csv"
+  model_file: "manzanillo_biomass_model.joblib"
+  risk_map_output: "daily_fire_risk_map.tif"
+  targets_output: "active_fire_targets.csv"
+
+parameters:
+  # AI Thresholds
+  max_slope: 90
+  risk_percentile: 98
+  # Quantum Constraints
+  drop_separation_meters: 500
+  drops_allowed: 5
+  
+system:
+  log_level: "INFO"

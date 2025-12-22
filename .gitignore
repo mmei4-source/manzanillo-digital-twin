@@ -1,0 +1,34 @@
+# --- 1. System & Python Junk ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# --- 2. Heavy/Temporary Folders ---
+# Your listing showed these contain temporary cache files
+cache/
+logs/
+
+# --- 3. Raw Data (BLOCK THIS - 1GB+) ---
+# This blocks the huge Sentinel zip files
+data/raw/
+
+# --- 4. Processed Data Filtering ---
+# Block all TIFs by default to catch the big ones
+data/processed/*.tif
+
+# EXCEPTION: Allow the 8MB map needed for Fire Engine
+!data/processed/daily_fire_risk_map.tif
+
+# EXCEPTION: Allow the 10MB graph needed for Logistics
+!data/processed/manzanillo_drive.graphml
+
+# Allow all CSVs (Config data)
+!data/processed/*.csv
+
+# Block the 206MB Analysis file (Too big for GitHub)
+data/processed/dem_delta_analysis.tif
+
+# --- 5. Models ---
+# Your .joblib file is only 137KB, so we can allow it safely
+# models/

@@ -1,0 +1,38 @@
+# --- Core Data Science & Math ---
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+
+# --- Machine Learning ---
+scikit-learn>=1.0.0
+joblib>=1.1.0
+
+# --- Geospatial Processing ---
+rasterio>=1.2.0
+geopandas>=0.10.0
+shapely>=1.8.0
+fiona>=1.8.0
+
+# --- Logistics & Network Analysis ---
+osmnx>=1.9.0
+networkx>=3.0
+
+# --- Web Application & Dashboard ---
+streamlit>=1.25.0
+streamlit-folium>=0.13.0
+folium>=0.14.0
+
+# --- Computer Vision ---
+# Use headless version for cloud servers (no GUI)
+opencv-python-headless>=4.8.0
+Pillow>=9.5.0
+
+# --- Quantum Simulation ---
+qiskit>=0.44.0
+qiskit-aer>=0.12.0
+
+# --- Utilities ---
+pyyaml>=6.0
+tqdm>=4.60.0
+requests>=2.31.0
