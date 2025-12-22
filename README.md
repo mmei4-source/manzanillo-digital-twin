@@ -12,7 +12,7 @@ This platform acts as a central nervous system for port resilience. It combines 
 ---
 
 ## 2. Quick Start (Cloud Deployment)
-If this app is deployed to Streamlit Cloud, simply visit the URL provided by the maintainer. No installation is required.
+This app is deployed to Streamlit Cloud, simply visit https://manzanillo-digital-twin.streamlit.app/Simulation_Lab. No installation is required.
 
 **For Local Development:**
 1.  **Clone the Repo:**
